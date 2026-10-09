@@ -1,0 +1,12 @@
+# Ignore node_modules — huge, and can be reinstalled with npm install
+node_modules/
+
+# Ignore .env — contains secret MySQL password
+.env
+
+# Ignore log files
+*.log
+
+# Ignore OS junk files
+.DS_Store
+Thumbs.db
